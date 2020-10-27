@@ -61,6 +61,7 @@ public class AbstractShapes {
 		myList.add(new Square(5));
 		myList.add(new Square(10));
 		myList.add(new Triangle(10, 10));
+
 		for (Shape myShape : myList) {
 			System.out.println(myShape.toString());
 		}
